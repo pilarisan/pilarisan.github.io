@@ -151,45 +151,50 @@ footer p {
 @media (max-width: 480px) {
     header {
         padding: 1rem;
+        flex-direction: column; /* Cambiar la dirección del flex para que los elementos se apilen */
+        align-items: center; /* Alinear los elementos al centro */
     }
 
     header img {
         top: 0;
         left: 0;
-        width: 120px;
-        margin-right:20px;
+        width: 120px;  /* Reducir el tamaño de la imagen del logo */
+        margin-bottom: 10px; /* Agregar un pequeño margen inferior para separar la imagen del texto */
     }
 
     header div {
-        margin-left: 32%;
-        text-align: center;
+        margin-left: 0;  /* Eliminar el margen izquierdo y centrar el texto */
+        text-align: center; /* Alinear el texto al centro */
+        width: 100%; /* Asegurarse de que el div ocupe todo el ancho disponible */
     }
 
     header h2 {
-        margin-left:10px;
-        font-size: 24px;
-        background-color:#7fb1c3;
+        margin: 0;
+        font-size: 24px; /* Ajustar el tamaño del texto */
+        background-color: #7fb1c3; /* Color de fondo para que el título sea visible */
+        padding: 5px 10px; /* Agregar un poco de espacio alrededor del texto */
     }
 
     header h1 {
-        margin-left:10px;
-        font-size: 16px;
-        background-color:#7fb1c3;
+        margin: 0;
+        font-size: 16px; /* Ajustar el tamaño del texto */
+        background-color: #7fb1c3; /* Color de fondo para el subtítulo */
+        padding: 5px 10px; /* Agregar un poco de espacio alrededor del texto */
     }
 
-    main{
-        margin-bottom:14%;
+    main {
+        margin-bottom: 14%;
     }
 
     section {
         padding: 1.5rem;
     }
     
-    section h3{
+    section h3 {
         margin-bottom: 2%;
     }
     
-    section p{
+    section p {
         text-align: justify;
         max-width: 98%;
     }
@@ -205,4 +210,6 @@ footer p {
     .float-wa i {
         font-size: 32px;
     }
+}
+
 }
