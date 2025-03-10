@@ -151,8 +151,6 @@ footer p {
 @media (max-width: 480px) {
     header {
         padding: 1rem;
-        flex-direction: column; /* Cambiar la dirección del flex para que los elementos se apilen */
-        align-items: center; /* Alinear los elementos al centro */
     }
 
     header img {
@@ -164,22 +162,19 @@ footer p {
 
     header div {
         margin-left: 0;  /* Eliminar el margen izquierdo y centrar el texto */
-        text-align: center; /* Alinear el texto al centro */
         width: 100%; /* Asegurarse de que el div ocupe todo el ancho disponible */
     }
 
     header h2 {
         margin: 0;
-        font-size: 24px; /* Ajustar el tamaño del texto */
-        background-color: #7fb1c3; /* Color de fondo para que el título sea visible */
-        padding: 5px 10px; /* Agregar un poco de espacio alrededor del texto */
+        font-size: 22px; /* Ajustar el tamaño del texto */
+        margin-right:-50px;
     }
 
     header h1 {
         margin: 0;
-        font-size: 16px; /* Ajustar el tamaño del texto */
-        background-color: #7fb1c3; /* Color de fondo para el subtítulo */
-        padding: 5px 10px; /* Agregar un poco de espacio alrededor del texto */
+        font-size: 14px; /* Ajustar el tamaño del texto */
+        margin-right:-50px;
     }
 
     main {
