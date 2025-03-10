@@ -163,10 +163,12 @@ footer p {
     }
 
     header h2 {
+        margin-left:10px;
         font-size: 24px;
     }
 
     header h1 {
+        margin-left:10px;
         font-size: 16px;
     }
 
