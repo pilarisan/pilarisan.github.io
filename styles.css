@@ -168,11 +168,13 @@ footer p {
     header h2 {
         margin-left:10px;
         font-size: 24px;
+        background-color:#7fb1c3;
     }
 
     header h1 {
         margin-left:10px;
         font-size: 16px;
+        background-color:#7fb1c3;
     }
 
     main{
